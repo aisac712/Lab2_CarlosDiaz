@@ -8,8 +8,8 @@ public class Empleado {
     private String color_f;
     private int edad;
     private char genero;
-    private int altura;
-    private int peso;
+    private float altura;
+    private float peso;
     private String titulo;
     private String cargo;
     private int salario;
@@ -57,19 +57,19 @@ public class Empleado {
         return genero;
     }
     
-    public void setAltura(int a){
+    public void setAltura(float a){
         this.altura=a;
     }
     
-    public int getAltura(){
+    public float getAltura(){
         return altura;
     }
     
-    public void setPeso(int p){
+    public void setPeso(float p){
         this.peso=p;
     }
     
-    public int getPeso(){
+    public float getPeso(){
         return peso;
     }
     
